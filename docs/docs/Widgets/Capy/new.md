@@ -1,0 +1,3 @@
+```rust
+fn new() -> Capy
+```
