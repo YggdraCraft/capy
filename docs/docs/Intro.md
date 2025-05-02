@@ -1,8 +1,5 @@
----
-sidebar_position: 1
----
-
 # What is capy?
+---
 
 Capy stand for **Compact Application Platform "Yggdrasil"**. It is a framework used to make lightweight native wayland applications.
 

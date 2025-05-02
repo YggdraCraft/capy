@@ -14,50 +14,13 @@
 
  @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
  */
+
+import { docs } from './docs/sidebar';
+
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-
+    docsSidebar: docs(),
   // But you can create a sidebar manually
-  docsSidebar: [
-    'Intro',
-    'QuickStart',
-    {
-      type: 'category',
-      label: 'Guides',
-      items: [
-        "Guides/Basic",
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Widgets',
-        link: {
-            type: 'doc',
-            id: 'Widgets/WhatIs',
-        },
-      items: [
-        {
-            type: 'category',
-            label: 'Capy',
-            link: {
-                type: 'doc',
-                id: 'Widgets/Capy/Capy',
-            },
-            items: [
-                'Widgets/Capy/new'
-            ],
-        },
-        "Widgets/Widget",
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Examples',
-      items: [
-        'Examples/Initialisation',
-      ],
-    },
-  ],
 };
 
 export default sidebars;
